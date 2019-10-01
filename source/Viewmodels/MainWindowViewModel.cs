@@ -11,7 +11,6 @@ namespace HelloWPF.ViewModels
         public MainWindowViewModel()
         {
             HelloWPFCmd = new HelloWPFCommand();
-
             Message = "";
         }
 

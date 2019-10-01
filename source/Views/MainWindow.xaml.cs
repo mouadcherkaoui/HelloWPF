@@ -14,7 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace HelloWPF
+namespace HelloWPF.Views
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
