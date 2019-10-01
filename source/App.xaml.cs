@@ -16,7 +16,7 @@ namespace HelloWPF
     /// </summary>
     public partial class App : Application
     {
-        public static IServiceProvider IoC;
+        public static IServiceProvider IoC { get; private set; }
         private IServiceCollection Services { get; }
         public App()
         {
@@ -26,6 +26,7 @@ namespace HelloWPF
         protected override void OnStartup(StartupEventArgs e) 
         {
             ConfigureServices();
+
             IoC.GetRequiredService<MainWindow>().Show();
         }
 
